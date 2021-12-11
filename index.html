@@ -96,6 +96,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .filter-grey{
   filter: contrast(0%)
 }
+input {
+   background-color: grey;
+   color: white;
+   border: 0;
+}
+input::placeholder {
+   color: whitesmoke;
+}
 </style><style type="text/css">
 @font-face {
 	font-family: 'Soleil';
@@ -185,7 +193,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </style>
 </head>
 <body class="w3-black">
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-text-light-grey">
   <a href="index.html#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -213,28 +221,28 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div>
 <div class="w3-padding-large" id="main">
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Mikołaj L. known also as Ludwik Zimmenhof.</h1>
-    <p>Junior Developer of: Web, Python and C languages.</p>
+    <h1 class="w3-jumbo w3-text-light-grey"><span class="w3-hide-small">I'm</span> Mikołaj L. known also as Ludwik Zimmenhof.</h1>
+    <p class="w3-text-light-grey">Junior Developer of: Web, Python and C languages.</p>
   </header>
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Hi I'm Mikołaj L. aka Ludwik Zimmenhof. Junior Developer of: Web     Python     C languages.
+    <p>Hi I'm Mikołaj L. aka Ludwik Zimmenhof. Junior Developer of: Web | Python | C languages.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Web Developer</p>
-    <div class="w3-white">
+    <div class="w3-black">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
     <p class="w3-wide">Python Developer</p>
-    <div class="w3-white">
+    <div class="w3-black">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
     <p class="w3-wide">C languages Developer</p>
-    <div class="w3-white">
+    <div class="w3-black">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div><br>
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-black">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">20+</span><br>
         Websites
@@ -255,22 +263,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Simple</li>
           <li class="w3-padding-16">Website</li>
           <li class="w3-padding-16">5 Pages</li>
           <li class="w3-padding-16">1 Updates</li>
           <li class="w3-padding-16">
             <h2>$ 3 | 10 zł</h2>
-            <span class="w3-opacity">Simple Website</span>
+            <span class="w3-opacit">Simple Website</span>
           </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-white w3-padding-large w3-hover-black">Hire Me</button>
+          <li class="w3-dark-grey w3-padding-24">
+            <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-black w3-padding-large w3-hover-black">Hire Me</button>
           </li>
         </ul>
       </div>
       <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Advanced</li>
           <li class="w3-padding-16">Website</li>
           <li class="w3-padding-16">10 Pages</li>
@@ -279,15 +287,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             <h2>$ 5 | 20 zł</h2>
             <span class="w3-opacity">Advanced Website</span>
           </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-white w3-padding-large w3-hover-black">Hire Me</button>
+          <li class="w3-dark-grey w3-padding-24">
+            <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-black w3-padding-large w3-hover-black">Hire Me</button>
           </li>
         </ul>
       </div>
       </div>
       <div class="w3-row-padding" style="margin:0 -16px">
           <div class="w3-half w3-margin-bottom">
-              <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
                   <li class="w3-dark-grey w3-xlarge w3-padding-32">Simple AI</li>
                   <li class="w3-padding-16">Website with Artificial Intelligence</li>
                   <li class="w3-padding-16">15 Pages</li>
@@ -296,13 +304,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                   <h2>$ 8 | 30 zł</h2>
                   <span class="w3-opacity">Simple AI Website</span>
                   </li>
-                  <li class="w3-light-grey w3-padding-24">
-                  <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-white w3-padding-large w3-hover-black">Hire Me</button>
+                  <li class="w3-dark-grey w3-padding-24">
+                  <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-black w3-padding-large w3-hover-black">Hire Me</button>
                   </li>
               </ul>
           </div>
           <div class="w3-half w3-margin-bottom">
-              <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
                   <li class="w3-dark-grey w3-xlarge w3-padding-32">Advanced AI</li>
                   <li class="w3-padding-16">Website with Artificial Intelligence</li>
                   <li class="w3-padding-16">20 Pages</li>
@@ -311,8 +319,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                       <h2>$ 10 | 40 zł</h2>
                       <span class="w3-opacity">Advanced AI Website</span>
                   </li>
-                  <li class="w3-light-grey w3-padding-24">
-                      <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-white w3-padding-large w3-hover-black">Hire Me</button>
+                  <li class="w3-dark-grey w3-padding-24">
+                      <button href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" class="w3-button w3-black w3-padding-large w3-hover-black">Hire Me</button>
                   </li>
               </ul>
           </div>
@@ -321,63 +329,63 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h2 class="w3-text-light-grey">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
         <li class="w3-dark-grey w3-xlarge w3-padding-32">GitHub Account</li>
         <li><a href="https://github.com/LudwikZimmenhof"><img src="https://avatars.githubusercontent.com/u/95546846?v=4?s=400" style="max-width: 216px"></a></li>
       </ul>
     </div>
     <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
         <li class="w3-dark-grey w3-xlarge w3-padding-32">Twitch Account Generator</li>
         <li><a href="https://github.com/LudwikZimmenhof/Twitch-Account-Generator"><img src="https://opengraph.githubassets.com/2a801c5f5ec81153f372b64d17be12a6656e5c619d964fd3d43418f5a9117f14/LudwikZimmenhof/Twitch-Account-Generator" style="max-width: 432px"></a></li>
       </ul>
     </div>
     <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
         <li class="w3-dark-grey w3-xlarge w3-padding-32">Voice Assistant</li>
         <li><a href="https://github.com/LudwikZimmenhof/Voice-Assistant"><img src="https://opengraph.githubassets.com/08acf1b9b376cf16c3a6ec2b3bcfea4e8ed1e33a3291221dbaf5e18086213795/LudwikZimmenhof/Voice-Assistant" style="max-width: 432px"></a></li>
       </ul>
     </div>
   </div>
   <div class="w3-half w3-margin-bottom">
-    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+    <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
       <li class="w3-dark-grey w3-xlarge w3-padding-32">Discord Bot</li>
       <li><a href="https://github.com/LudwikZimmenhof/Discord-Bot"><img src="https://opengraph.githubassets.com/89f38040e2693580441f1ee937c8fc23ae55f41d39b07d27b0a384035172b71a/LudwikZimmenhof/Discord-Bot" style="max-width: 432px"></a></li>
     </ul>
   </div>
 </div>
 <div class="w3-half w3-margin-bottom">
-  <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+  <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
     <li class="w3-dark-grey w3-xlarge w3-padding-32">Portfolio</li>
     <li><a href="https://github.com/LudwikZimmenhof/Portfolio"><img src="https://opengraph.githubassets.com/08acf1b9b376cf16c3a6ec2b3bcfea4e8ed1e33a3291221dbaf5e18086213795/LudwikZimmenhof/Portfolio" style="max-width: 432px"></a></li>
   </ul>
 </div>
 <div class="w3-half w3-margin-bottom">
-  <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+  <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
     <li class="w3-dark-grey w3-xlarge w3-padding-32">Learn Python The Hard Way</li>
     <li><a href="https://github.com/LudwikZimmenhof/L.P.T.H.W."><img src="https://opengraph.githubassets.com/2b05b8b321ff01bd139cb271bfc776855ec52051f2ed2fe0bea16856b75f1aa3/LudwikZimmenhof/L.P.T.H.W." style="max-width: 432px"></a></li>
   </ul>
 </div>
 <div class="w3-half w3-margin-bottom">
-  <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+  <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
     <li class="w3-dark-grey w3-xlarge w3-padding-32">Triangle Calculator</li>
     <li><a href="https://github.com/LudwikZimmenhof/30-60-90.Triangle-Calculator"><img src="https://opengraph.githubassets.com/2b05b8b321ff01bd139cb271bfc776855ec52051f2ed2fe0bea16856b75f1aa3/LudwikZimmenhof/30-60-90.Triangle-Calculator" style="max-width: 432px"></a></li>
   </ul>
 </div>
 <div class="w3-half w3-margin-bottom">
-  <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+  <ul class="w3-ul w3-black w3-center w3-opacity w3-hover-opacity-off">
     <li class="w3-dark-grey w3-xlarge w3-padding-32">USA to SI Calculator</li>
     <li><a href="https://github.com/LudwikZimmenhof/USA-SI-Calculator"><img src="https://opengraph.githubassets.com/2daf3a31e88ae06446e2b639781ff978c27cab40dfa93aad037043ef85f4baf0/LudwikZimmenhof/USA-SI-Calculator" style="max-width: 432px"></a></li>
   </ul>
 </div>
     </div>
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-64 w3-content w3-text-light-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ostrołęka, Poland</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Discord: LudwikZimmenhof#6594</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: L.L.Zamenhof-Dr.Esperanto@protonmail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-grey w3-xxlarge w3-margin-right"></i> Ostrołęka, Poland</p>
+      <p><i class="fa fa-phone fa-fw w3-text-grey w3-xxlarge w3-margin-right"></i> Discord: LudwikZimmenhof#6594</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-grey w3-xxlarge w3-margin-right"> </i> Email: L.L.Zamenhof-Dr.Esperanto@protonmail.com</p>
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
     <form action="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com" method="post" enctype="text/plain" target="_blank">
@@ -386,8 +394,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required="" name="Subject"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required="" name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <button class="w3-button w3-grey w3-text-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane w3-text-dark-grey"></i> SEND MESSAGE
         </button>
       </p>
     </form>
@@ -396,7 +404,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="mailto:L.L.Zamenhof-Dr.Esperanto@protonmail.com"><i class="fa fa-envelope"></i></a>
     <a href="https://github.com/LudwikZimmenhof"><i class="fa fa-github"></i></a>
     <a href="https://discord.gg/nrUKzgHpJ3"><img src="discord.svg" style="max-width: 30px" class="filter-grey"</img></a>
-    <p class="w3-medium">Made By <a href="https://ludwikzimmenhof.github.io/Portfolio/" target="_blank" class="w3-hover-text-dark-grey">Mikołaj L.</a></p>
+    <p class="w3-medium w3-text-light-grey">Made By <a href="https://ludwikzimmenhof.github.io/Portfolio/" target="_blank" class="w3-hover-text-grey">Mikołaj L.</a></p>
   </footer>
 </div>
 </body></html>
